@@ -1,0 +1,62 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    width: 100vmax;
+    padding-top: 100px;
+    
+}
+
+img{
+    width: 30%;
+    text-align: center;
+    margin: 20px 0px 0px 10px;
+    padding-left: 32%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    width: 30%;
+    border: solid 2px gray;
+    border-radius:10px;
+    background-color: #67B953;
+    color: white;
+    font-weight: 800;
+}
+
+input, button{
+    margin: 0px 15px 0px 15px;
+    border: solid gainsboro 1px;
+    border-radius: 5px;
+    color: gray;
+    padding: 5px 0px 5px 0px;
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #F3F008;
+    color: white;
+    box-shadow: 3px 3px 2px #2C2C26;
+    font-weight: 600;
+}
+
+#colorCompra{
+    display: none;
+    width: 10%;
+    height: 10%;
+    background-color: green;
+    border-radius: 200px;
+    border: solid 1px;
+
+}
