@@ -15,6 +15,4 @@ boton.addEventListener ("click", () => {
     colorfinal.style.backgroundColor = color.value;
     cantidadCompra.textContent = `Cantidad seleccionada: ${cantidad.value}`;
     precioCompra.textContent = `Precio total: $ ${cantidad.value * precio}`; 
-    
-
 })
